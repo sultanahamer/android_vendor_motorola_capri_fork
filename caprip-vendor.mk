@@ -169,6 +169,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/tcs3708.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/tcs3708.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/motorola/caprip/proprietary/vendor/etc/thermal-engine-caprip.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-caprip.conf \
+    vendor/motorola/caprip/proprietary/vendor/firmware/ILITEK_FW_TIANMA_9882N:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_TIANMA_9882N \
+    vendor/motorola/caprip/proprietary/vendor/firmware/ILITEK_FW_TM_9882N:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_TM_9882N \
+    vendor/motorola/caprip/proprietary/vendor/firmware/ILITEK_FW_TXD_7806S:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_TXD_7806S \
+    vendor/motorola/caprip/proprietary/vendor/firmware/ILITEK_FW_TXD_9882H:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_TXD_9882H \
+    vendor/motorola/caprip/proprietary/vendor/firmware/ILITEK_FW_TXD_9882N:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_TXD_9882N \
+    vendor/motorola/caprip/proprietary/vendor/firmware/aw869x_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_haptic.bin \
+    vendor/motorola/caprip/proprietary/vendor/firmware/aw882xx_mono.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_mono.bin \
+    vendor/motorola/caprip/proprietary/vendor/firmware/aw882xx_mono_power.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_mono_power.bin \
+    vendor/motorola/caprip/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
+    vendor/motorola/caprip/proprietary/vendor/firmware/djn1_nt36525c_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn1_nt36525c_novatek_ts_fw.bin \
+    vendor/motorola/caprip/proprietary/vendor/firmware/djn1_nt36525c_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn1_nt36525c_novatek_ts_mp.bin \
+    vendor/motorola/caprip/proprietary/vendor/firmware/djn_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn_novatek_ts_fw.bin \
+    vendor/motorola/caprip/proprietary/vendor/firmware/djn_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn_novatek_ts_mp.bin \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p64e_ov8856_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p64e_ov8856_eeprom.so \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p64e_s5k3l6_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p64e_s5k3l6_eeprom.so \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.mot.eeprom.mot_ov02b1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_ov02b1b_otp.so \
