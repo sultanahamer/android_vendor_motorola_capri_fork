@@ -6,9 +6,9 @@
   },
   "sns_amd": {
     "owner": "sns_amd",
-    "param1": {"ver": "0","type": "flt","data": "0.06"
+    "param1": {"ver": "0","type": "flt","data": "0.3"
     },
-    "param2": {"ver": "0","type": "flt","data": "0.5"
+    "param2": {"ver": "0","type": "flt","data": "0.7"
     },
     "sample_rate": {"ver": "0","type": "flt", "data": "10.0"
     }
