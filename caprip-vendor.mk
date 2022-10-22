@@ -196,6 +196,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/firmware/aw882xx_mono.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_mono.bin \
     vendor/motorola/caprip/proprietary/vendor/firmware/aw882xx_mono_power.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_mono_power.bin \
     vendor/motorola/caprip/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
+    vendor/motorola/caprip/proprietary/vendor/firmware/aw882xx_pid_1852_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_pid_1852_acf.bin \
+    vendor/motorola/caprip/proprietary/vendor/firmware/aw882xx_pid_2113_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_pid_2113_acf.bin \
     vendor/motorola/caprip/proprietary/vendor/firmware/djn_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn_novatek_ts_fw.bin \
     vendor/motorola/caprip/proprietary/vendor/firmware/djn_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn_novatek_ts_mp.bin \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.mot.eeprom.mot_capri_s5k4h7_front_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_capri_s5k4h7_front_otp.so \
