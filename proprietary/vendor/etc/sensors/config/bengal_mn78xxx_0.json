@@ -100,7 +100,7 @@
       ".fac_cal":{
         "owner": "sns_mn78xxx",
         "scale":{ "type": "flt", "ver": "0",
-          "data": "757.0"
+          "data": "300.0"
         },
         "bias":{ "type": "flt", "ver": "0",
           "data": "1000.0"
@@ -109,7 +109,7 @@
           "data": "400.0"
         },
         "default_scale":{ "type": "flt", "ver": "0",
-          "data": "757.0"
+          "data": "300.0"
         }
       },
 	  ".config":{
@@ -168,10 +168,10 @@
           "data": "0.0"
         },
 	"cover":{ "type": "flt", "ver": "0",
-          "data": "2320.0"
+          "data": "2500.0"
         },
         "uncover":{ "type": "flt", "ver": "0",
-          "data": "1320.0"
+          "data": "1500.0"
         },
         "default_near_threshold":{ "type": "flt", "ver": "0",
           "data": "2300"
@@ -198,10 +198,10 @@
           "data": "0.5"
         },
         "default_cover":{ "type": "flt", "ver": "0",
-          "data": "2320.0"
+          "data": "2500.0"
         },
         "default_uncover":{ "type": "flt", "ver": "0",
-          "data": "1320.0"
+          "data": "1500.0"
         }
       },
 	  ".config":{

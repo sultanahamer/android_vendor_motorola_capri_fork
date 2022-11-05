@@ -29,11 +29,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_default_sensors.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_dynamic_sensors.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_icm4x6xx_0.json \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_lis2doc_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_lis2doc_0.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_lsm6dso_0.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_mn78xxx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_mn78xxx_0.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_power_0.json \
-    vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_qmc6308_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_qmc6308_0.json \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_sc7a20_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_sc7a20_0.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_stk3a5x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_stk3a5x_0.json \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_stk8baxx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_stk8baxx_0.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_vcnl36866_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_vcnl36866_0.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/bengal_vcnl36866_0_always.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_vcnl36866_0_always.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm4x6xx_0.json \
@@ -43,7 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/mot_drop.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/mot_drop.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/mot_ltv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/mot_ltv.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/mot_offbody.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/mot_offbody.json \
-    vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/qmc6308_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qmc6308_0.json \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/sc7a20_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sc7a20_0.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/sns_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_disabled.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/sns_amd_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_enabled.json \
@@ -76,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_enabled.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/stk3a5x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3a5x_0.json \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/stk8baxx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk8baxx_0.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/config/vcnl36866_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/vcnl36866_0.json \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/descriptor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/descriptor.proto \
@@ -97,6 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/mot_stowed.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/mot_stowed.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/mot_vsync.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/mot_vsync.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/nanopb.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/nanopb.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/qti_gravity.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/qti_gravity.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_accel.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_accel.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_accel_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_accel_cal.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_activity_recognition.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_activity_recognition.proto \
@@ -104,17 +108,24 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_ambient_temperature.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ambient_temperature.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_amd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_amd.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_aont.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_aont.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_async_com_port.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_async_com_port.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_basic_gestures.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_basic_gestures.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_bring_to_ear.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_bring_to_ear.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_cal.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_ccd_ttw.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ccd_ttw.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_ccd_walk.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ccd_walk.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_client.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_client.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_cmc.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_cmc.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_cmd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_cmd.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_da_test.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_da_test.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_dae.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_dae.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_data_acquisition_engine.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_data_acquisition_engine.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_device_mode.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_device_mode.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_device_orient.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_device_orient.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_diag.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_diag.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_diag_sensor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_diag_sensor.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_direct_channel.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_direct_channel.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_distance_bound.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_distance_bound.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_dpc.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_dpc.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_ext_svc.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ext_svc.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_facing.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_facing.proto \
@@ -132,9 +143,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_heart_rate.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_heart_rate.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_hinge_angle.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_hinge_angle.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_humidity.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_humidity.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_interrupt.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_interrupt.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_mag.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_mag.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_mag_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_mag_cal.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_mcmd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_mcmd.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_mot_factory_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_mot_factory_cal.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_motion_detect.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_motion_detect.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_multishake.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_multishake.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_oem1.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_oem1.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_offbody_detect.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_offbody_detect.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_panel_status.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_panel_status.proto \
@@ -147,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_proximity.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_proximity.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_psmd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_psmd.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_registry.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_registry.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_remote_proc_state.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_remote_proc_state.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_resampler.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_resampler.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_rgb.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_rgb.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_rmd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_rmd.proto \
@@ -154,6 +170,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_sar.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sar.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_sensor_temperature.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sensor_temperature.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_sig_motion.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sig_motion.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_signal_sensor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_signal_sensor.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_sim.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sim.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_sim_legacy.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sim_legacy.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_std.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_std.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_std_event_gated_sensor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_std_event_gated_sensor.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_std_sensor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_std_sensor.proto \
@@ -164,10 +183,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_threshold.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_threshold.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_tilt.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_tilt.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_tilt_to_wake.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_tilt_to_wake.proto \
+    vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_timer.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_timer.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_ultra_violet.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ultra_violet.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_wrist_tilt_gesture.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/proto/tcs3708.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/tcs3708.proto \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/motorola/caprip/proprietary/vendor/etc/thermal-engine-capri-6000.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-capri-6000.conf \
     vendor/motorola/caprip/proprietary/vendor/etc/thermal-engine-caprip.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-caprip.conf \
     vendor/motorola/caprip/proprietary/vendor/firmware/ILITEK_FW_TIANMA_9882N:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_TIANMA_9882N \
     vendor/motorola/caprip/proprietary/vendor/firmware/ILITEK_FW_TM_9882N:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_TM_9882N \
@@ -182,11 +203,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/firmware/djn1_nt36525c_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn1_nt36525c_novatek_ts_mp.bin \
     vendor/motorola/caprip/proprietary/vendor/firmware/djn_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn_novatek_ts_fw.bin \
     vendor/motorola/caprip/proprietary/vendor/firmware/djn_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn_novatek_ts_mp.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.mot.eeprom.mot_capri_s5k4h7_front_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_capri_s5k4h7_front_otp.so \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.mot.eeprom.mot_capri_s5k4h7_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_capri_s5k4h7_otp.so \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_actuator.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_actuator.so \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p64e_ov8856_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p64e_ov8856_eeprom.so \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p64e_s5k3l6_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p64e_s5k3l6_eeprom.so \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.mot.eeprom.mot_ov02b1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_ov02b1b_otp.so \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.mot.eeprom.mot_ov64b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_ov64b_otp.so \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.mot.eeprom.mot_s5k4h7_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_s5k4h7_otp.so \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensor.mot_capri_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_capri_s5k4h7.so \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensor.mot_capri_s5k4h7_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_capri_s5k4h7_front.so \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensor.mot_gc02m1.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_gc02m1.so \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensor.mot_ov02b10.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_ov02b10.so \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensor.mot_ov02b1b.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_ov02b1b.so \
@@ -194,6 +220,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensor.mot_ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_ov8856.so \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensor.mot_s5k3l6.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_s5k3l6.so \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensor.mot_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_s5k4h7.so \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensor.mot_s5kgm1st.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_s5kgm1st.so \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_capri_gc02m1_union.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_capri_gc02m1_union.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_capri_ov02b10_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_capri_ov02b10_ofilm.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_capri_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_capri_ov02b1b.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_capri_ov8856_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_capri_ov8856_ofilm.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_capri_s5k4h7_front_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_capri_s5k4h7_front_ofilm.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_capri_s5k4h7_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_capri_s5k4h7_ofilm.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_capri_s5kgm1st_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_capri_s5kgm1st_ofilm.bin \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_caprip_gc02m1_union.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_caprip_gc02m1_union.bin \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_caprip_ov02b10_cxt.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_caprip_ov02b10_cxt.bin \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_caprip_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_caprip_ov02b1b.bin \
@@ -202,6 +236,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_caprip_s5k3l6_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_caprip_s5k3l6_ofilm.bin \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_caprip_s5k4h7_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_caprip_s5k4h7_ofilm.bin \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.tuned.mot_capri_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_capri_gc02m1.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.tuned.mot_capri_ov02b10.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_capri_ov02b10.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.tuned.mot_capri_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_capri_ov02b1b.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.tuned.mot_capri_ov8856.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_capri_ov8856.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.tuned.mot_capri_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_capri_s5k4h7.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.tuned.mot_capri_s5k4h7_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_capri_s5k4h7_front.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.tuned.mot_capri_s5kgm1st.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_capri_s5kgm1st.bin \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.tuned.mot_caprip_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_caprip_gc02m1.bin \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.tuned.mot_caprip_ov02b10.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_caprip_ov02b10.bin \
     vendor/motorola/caprip/proprietary/vendor/lib/camera/com.qti.tuned.mot_caprip_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_caprip_ov02b1b.bin \
@@ -332,33 +373,33 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/lib/libvidhance_stabilizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance_stabilizer.so \
     vendor/motorola/caprip/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/motorola/caprip/proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_capri_s5k4h7_front_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_capri_s5k4h7_front_otp.so \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_capri_s5k4h7_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_capri_s5k4h7_otp.so \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_actuator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_actuator.so \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov8856_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov8856_eeprom.so \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_s5k3l6_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64e_s5k3l6_eeprom.so \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_ov02b1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_ov02b1b_otp.so \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_ov64b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_ov64b_otp.so \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_s5k4h7_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_s5k4h7_otp.so \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensor.mot_capri_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_capri_s5k4h7.so \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensor.mot_capri_s5k4h7_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_capri_s5k4h7_front.so \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensor.mot_gc02m1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_gc02m1.so \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov02b10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov02b10.so \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov02b1b.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov02b1b.so \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov64b.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov64b.so \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov8856.so \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5k3l6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5k3l6.so \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5k4h7.so \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_caprip_gc02m1_union.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_caprip_gc02m1_union.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_caprip_ov02b10_cxt.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_caprip_ov02b10_cxt.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_caprip_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_caprip_ov02b1b.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_caprip_ov64b_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_caprip_ov64b_ofilm.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_caprip_ov8856_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_caprip_ov8856_ofilm.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_caprip_s5k3l6_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_caprip_s5k3l6_ofilm.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_caprip_s5k4h7_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_caprip_s5k4h7_ofilm.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5kgm1st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5kgm1st.so \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_capri_gc02m1_union.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_capri_gc02m1_union.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_capri_ov02b10_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_capri_ov02b10_ofilm.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_capri_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_capri_ov02b1b.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_capri_ov8856_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_capri_ov8856_ofilm.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_capri_s5k4h7_front_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_capri_s5k4h7_front_ofilm.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_capri_s5k4h7_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_capri_s5k4h7_ofilm.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_capri_s5kgm1st_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_capri_s5kgm1st_ofilm.bin \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_caprip_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_caprip_gc02m1.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_caprip_ov02b10.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_caprip_ov02b10.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_caprip_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_caprip_ov02b1b.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_caprip_ov64b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_caprip_ov64b.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_caprip_ov8856.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_caprip_ov8856.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_caprip_s5k3l6.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_caprip_s5k3l6.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_caprip_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_caprip_s5k4h7.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_capri_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_capri_gc02m1.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_capri_ov02b10.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_capri_ov02b10.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_capri_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_capri_ov02b1b.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_capri_ov8856.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_capri_ov8856.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_capri_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_capri_s5k4h7.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_capri_s5k4h7_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_capri_s5k4h7_front.bin \
+    vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.qti.tuned.mot_capri_s5kgm1st.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_capri_s5kgm1st.bin \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/components/com.arcsoft.node.dc_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.dc_capture.so \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/components/com.arcsoft.node.dc_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.dc_preview.so \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.smooth_transition.so \
